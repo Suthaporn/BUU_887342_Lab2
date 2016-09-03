@@ -31,9 +31,20 @@ public class Rec {
 	
     /** = a copy of s with characters in reverse order.
 		Example: reverse("abcdefg") = "gfedcba". */
-	public static String reverse(String s) {
-	
+	public static String reverse(String s) {	
+		
 	// fill me in
+		Scanner kb = new Scanner(System.in);
+		Stack(String) sk = new Stack(String);
+		String input;
+		sk.push("AAAAA");
+		
+		input = sk.pop;
+		
+		System.out.println(input);
+		
+		
+		
 	
 	}
 

@@ -1,3 +1,4 @@
+import java.util.*;
 public class Rec {
 
 
@@ -24,8 +25,15 @@ public class Rec {
     /** = a copy of s with to_remove_char removed.
 		Example: removeChar("abeabe", 'e') = "abab". */
 	public static String removeChar(String s, char to_remove_char) {
+		
+	String a = "";
+	for(int i=1;i<s.length();i++){
+		if(charAt(i)!=to_remove_char)
+			a+=s.charAt(i);
+	}
+	return a;
 	
-	// fill me in
+
 	
 	}
 	
@@ -42,6 +50,7 @@ public class Rec {
 	}
 
     public static void main(String[] args) {
+   
         System.out.println(numDigits(123));
         System.out.println(numDigits(123456));
         System.out.println(numDigits(1));

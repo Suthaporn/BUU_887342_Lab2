@@ -34,15 +34,8 @@ public class Rec {
 	public static String reverse(String s) {	
 		
 	// fill me in
-		Scanner kb = new Scanner(System.in);
-		Stack(String) sk = new Stack(String);
-		String input;
-		sk.push("AAAAA");
-		
-		input = sk.pop;
-		
-		System.out.println(input);
-		
+	if(s.length()==0) return "";
+	return reverse(s.substring(1))+String.valueOf(s.charAt(0));
 		
 		
 	
